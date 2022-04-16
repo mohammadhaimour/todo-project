@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header,
+footer {
+    position: absolute;
+    background-color: #000;
+    width: 100%;
+    color: white;
+}
+
+header h2 {
+    position: absolute;
+    margin-top: 20px;
+    left: 20%;
+}
+
+header h2 img {
+    width: 97px;
+    height: 48px;
+    border-radius: 5px;
+
+}
+
+header h2 p {
+    position: absolute;
+    color: #dd8d0e;
+    top: -7px;
+    left: 110px;
+
+
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 15vh;
+    bottom: 0;
+}
+
+footer h2 {
+    position: absolute;
+    left: 45%;
+}
+
+.nav {
+    position: absolute;
+    width: 100%;
+}
+
+.nav a {
+    position: relative;
+    left: 45%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.photo img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 328px;
+    top: 163px;
+    border-radius: 50%;
+}
+
+
+
+
+.one .info {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 668px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    position: absolute;
+    left: 464px;
+    top: 145px;
+}
+
+.info thead tr {
+    background-color: rgb(203, 118, 15);
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.info th,
+.info td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.info tbody tr {
+    border-bottom: 2px solid #eee;
+}
+
+.info tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(203, 118, 15);
+}
+
+.two .info {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 668px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    position: absolute;
+    left: 464px;
+    top: 350px;
+}
