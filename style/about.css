@@ -116,8 +116,44 @@ footer h2 {
     font-size: 0.9em;
     width: 668px;
     border-radius: 5px 5px 0 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: absolute;
-    left: 464px;
+    left: 20%;
     top: 350px;
+}
+
+.two .submit input {
+    position: absolute;
+    top: 490px;
+    left: 771px;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(203, 118, 15);
+    font-weight: bold;
+    font-size: 20px;
+    width: 119px;
+
+}
+
+.two .submit input:hover {
+    opacity: 80%;
+}
+
+.two .info td input {
+    padding: 5%;
+
+}
+
+main .two .contact p {
+    color: #fafafa;
+    position: absolute;
+    top: 309px;
+    left: 707px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(203, 118, 15);
+    border-radius: 5%;
+    padding: 10px;
+
 }
